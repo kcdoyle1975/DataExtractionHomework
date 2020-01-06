@@ -1,4 +1,5 @@
 ﻿using DataCommunication;
+using HomeworkApi.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +25,8 @@ namespace HomeworkApi
             services.AddSingleton<IFileStreamReader, FileStreamReader>();
             services.AddSingleton<IFileStreamWriter, FileStreamWriter>();
             services.AddSingleton<IDataFileReader, DataFileReader>();
+            services.AddSingleton<IDataFileWriter, DataFileWriter>();
+            services.AddSingleton<RecordsController, RecordsController>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
