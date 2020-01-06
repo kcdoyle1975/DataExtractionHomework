@@ -18,11 +18,11 @@ namespace DataCommunicationTest
             FileInfo fileInfo = new FileInfo(filePath);
 
             //Act
-            var streamWriter = fileStreamWriter.GetWriter(fileInfo);
-            streamWriter.Close();
-
-            //Assert
-            Assert.IsTrue(streamWriter is StreamWriter);
+            using (var streamWriter = fileStreamWriter.GetWriter(fileInfo))
+            {
+                //Assert
+                Assert.IsTrue(streamWriter is StreamWriter, $"File: {fileInfo.FullName} could not be written to");
+            }
         }
     }
 }
