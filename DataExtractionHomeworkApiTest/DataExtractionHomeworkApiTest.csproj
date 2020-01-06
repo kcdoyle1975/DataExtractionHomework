@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GuaranteedRateHomeworkApi\DataExtractionHomeworkApi.csproj" />
+    <ProjectReference Include="..\DataExtractionHomeworkApi\DataExtractionHomeworkApi.csproj" />
   </ItemGroup>
 
 </Project>

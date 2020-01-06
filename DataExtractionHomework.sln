@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCommunication", "DataCommunication\DataCommunication.csproj", "{9FD6AC1D-743A-4E47-9910-0AF273291A81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractionHomeworkApi", "GuaranteedRateHomeworkApi\DataExtractionHomeworkApi.csproj", "{49E97523-F7C0-4DD9-BEA0-B526A12FA029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractionHomeworkApi", "DataExtractionHomeworkApi\DataExtractionHomeworkApi.csproj", "{49E97523-F7C0-4DD9-BEA0-B526A12FA029}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractionHomeworkConsole", "GuaranteedRateHomeworkConsole\DataExtractionHomeworkConsole.csproj", "{F03BF62D-85F2-4A5B-9B27-082DC4096468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractionHomeworkConsole", "DataExtractionHomeworkConsole\DataExtractionHomeworkConsole.csproj", "{F03BF62D-85F2-4A5B-9B27-082DC4096468}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCommunicationTest", "DataCommunicationTest\DataCommunicationTest.csproj", "{6A16406E-E658-4526-ACCC-CA8241A98083}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractionHomeworkApiTest", "GuaranteedRateHomeworkApiTest\DataExtractionHomeworkApiTest.csproj", "{77C93A83-B17A-45F1-B369-3934D1E5A777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractionHomeworkApiTest", "DataExtractionHomeworkApiTest\DataExtractionHomeworkApiTest.csproj", "{77C93A83-B17A-45F1-B369-3934D1E5A777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
